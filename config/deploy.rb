@@ -8,7 +8,7 @@ set :user, 'deploy'
 set :ssh_options, {
     forward_agent: true,
     auth_methods: ['publickey'],
-    keys: ['~/.ssh/aws_inforcap.pem']
+    keys: ['~/.ssh/aws-inforcap.pem']
 }
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
