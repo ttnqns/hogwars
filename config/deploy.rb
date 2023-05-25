@@ -2,7 +2,7 @@
 lock "~> 3.17.3"
 
 set :application, "myapp"
-set :repo_url, "git@github.com:ttnqns/hogwards.git"
+set :repo_url, "git@github.com:ttnqns/hogwars.git"
 set :branch, 'main'
 
 set :user, 'deploy'
