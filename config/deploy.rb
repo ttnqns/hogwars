@@ -17,6 +17,7 @@ set :ssh_options, {
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
 set :deploy_to, "/home/deploy/#{fetch :application}"
+set :rbenv_prefix, '/usr/bin/rbenv exec'
 
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', '.bundle', 'public/system', 'public/uploads'
 
